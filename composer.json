@@ -1,0 +1,17 @@
+{
+    "name": "verc/cms.loc",
+    "authors": [
+        {
+            "name": "Andrey Trepalin",
+            "email": "hitmanki@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Verc\\CmsLoc\\": "src/",
+            "Engine\\": "engine",
+            "Engine\\DI\\": "engine/DI"
+        }
+    }
+}
